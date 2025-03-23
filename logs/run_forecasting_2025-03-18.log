@@ -1,0 +1,18 @@
+2025-03-18T23:57:54.310911+0700 | __main__ | INFO | Sentiment Forecasting Params- 
+ Client: morgan |
+ Suffix: True |
+ Output File Name: morgan_predicted.feather |
+
+2025-03-18T23:57:54.425594+0700 | __main__ | INFO | Running 1/12 → COLUMN=AVG Total RM, STORAGE_TYPE=All, OUTLIER=True
+2025-03-18T23:57:55.346023+0700 | __main__ | INFO | Running 2/12 → COLUMN=AVG Total RM, STORAGE_TYPE=All, OUTLIER=False
+2025-03-18T23:58:07.962788+0700 | __main__ | INFO | Running 3/12 → COLUMN=AVG Total RM, STORAGE_TYPE=Specific, OUTLIER=True
+2025-03-18T23:58:09.499207+0700 | __main__ | INFO | Running 4/12 → COLUMN=AVG Total RM, STORAGE_TYPE=Specific, OUTLIER=False
+2025-03-18T23:58:25.211016+0700 | __main__ | INFO | Running 5/12 → COLUMN=AVG Total EA, STORAGE_TYPE=All, OUTLIER=True
+2025-03-18T23:58:26.086783+0700 | __main__ | INFO | Running 6/12 → COLUMN=AVG Total EA, STORAGE_TYPE=All, OUTLIER=False
+2025-03-18T23:58:38.920546+0700 | __main__ | INFO | Running 7/12 → COLUMN=AVG Total EA, STORAGE_TYPE=Specific, OUTLIER=True
+2025-03-18T23:58:40.469387+0700 | __main__ | INFO | Running 8/12 → COLUMN=AVG Total EA, STORAGE_TYPE=Specific, OUTLIER=False
+2025-03-18T23:58:55.594600+0700 | __main__ | INFO | Running 9/12 → COLUMN=AVG Total CTN, STORAGE_TYPE=All, OUTLIER=True
+2025-03-18T23:58:56.417995+0700 | __main__ | INFO | Running 10/12 → COLUMN=AVG Total CTN, STORAGE_TYPE=All, OUTLIER=False
+2025-03-18T23:59:08.741803+0700 | __main__ | INFO | Running 11/12 → COLUMN=AVG Total CTN, STORAGE_TYPE=Specific, OUTLIER=True
+2025-03-18T23:59:09.997850+0700 | __main__ | INFO | Running 12/12 → COLUMN=AVG Total CTN, STORAGE_TYPE=Specific, OUTLIER=False
+2025-03-18T23:59:22.087348+0700 | __main__ | INFO | Saving feather as morgan_predicted.feather...

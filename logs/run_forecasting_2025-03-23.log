@@ -1,0 +1,693 @@
+2025-03-23T23:47:58.944197+0700 | __main__ | INFO | Sentiment Forecasting Params- 
+ Client: ferrero |
+ Suffix: test |
+ Output File Name: ferrero_predicted_test.feather |
+
+2025-03-23T23:48:00.426694+0700 | __main__ | INFO | Running 1/12 → COLUMN=AVG Total RM, STORAGE_TYPE=All, OUTLIER=True
+2025-03-23T23:48:00.813181+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:01.358258+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:01.384058+0700 | src.utilities.utils | INFO | Model failed with seasonal order 4: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:02.110187+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:02.132993+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:02.133099+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:02.184183+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:02.204577+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:02.288015+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:02.786741+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:02.839535+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:03.006707+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:03.469807+0700 | __main__ | INFO | Running 2/12 → COLUMN=AVG Total RM, STORAGE_TYPE=All, OUTLIER=False
+2025-03-23T23:48:04.426231+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:05.396469+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:05.826153+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:07.412992+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:07.908549+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:07.957338+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:08.220937+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:09.929199+0700 | __main__ | INFO | Running 3/12 → COLUMN=AVG Total RM, STORAGE_TYPE=Specific, OUTLIER=True
+2025-03-23T23:48:09.941116+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:10.050728+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:10.075003+0700 | src.utilities.utils | INFO | Model failed with seasonal order 4: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:10.081688+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:10.132380+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:10.272258+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:10.292391+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:10.371536+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:10.449690+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:10.839855+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:10.909614+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:10.916560+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:10.978683+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:10.983772+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:11.060572+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:11.060677+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:11.082789+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:11.156366+0700 | src.utilities.utils | INFO | Model failed with seasonal order 4: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:11.162802+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:11.182824+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:11.187116+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:11.360710+0700 | src.utilities.utils | INFO | Model failed with seasonal order 4: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:11.367109+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:11.386986+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:11.457452+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:11.483320+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:11.483412+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:11.503637+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:11.559770+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:11.564882+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:11.694143+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:11.697332+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:11.751013+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:11.883955+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:11.911380+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:11.978803+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:12.006819+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:12.026258+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:12.060613+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:12.241354+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:12.268035+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:12.299247+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:12.323238+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:12.392478+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:12.429081+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:12.678868+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:12.729805+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:12.801631+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:12.820539+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:12.888814+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:12.888912+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:12.966531+0700 | src.utilities.utils | INFO | Model failed with seasonal order 8: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:13.078303+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:13.098933+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:13.122325+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:13.125555+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:13.290026+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:13.364752+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:13.367944+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:14.096378+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:14.179501+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:14.200308+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:14.272136+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:14.299897+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:14.388147+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:14.420238+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:14.690849+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:14.768146+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:14.842591+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:14.845865+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:14.902288+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:15.019997+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:15.235219+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:15.255721+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:15.561841+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:15.843887+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:15.870359+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:15.870466+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:15.931201+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:15.934516+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:15.954502+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:16.014838+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:16.471220+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:17.011986+0700 | __main__ | INFO | Running 4/12 → COLUMN=AVG Total RM, STORAGE_TYPE=Specific, OUTLIER=False
+2025-03-23T23:48:17.174946+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:17.602496+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:17.694025+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:17.712892+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:17.712988+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:18.409264+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:18.435373+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:19.043844+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:19.408973+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:19.412167+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:19.904167+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:20.408125+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:20.430286+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:20.555393+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:21.090172+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:21.213273+0700 | src.utilities.utils | INFO | Model failed with seasonal order 6: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:21.229539+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:21.908825+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:21.912105+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:22.931641+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:23.017493+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:23.818255+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:23.889266+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:24.037746+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:24.176557+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:24.389673+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:24.969733+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:25.778086+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:27.199619+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:27.232449+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:27.257116+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:27.688004+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:27.691841+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:27.715455+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:27.903319+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:27.921934+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:27.922016+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:28.508209+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:28.511501+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:28.524757+0700 | src.utilities.utils | INFO | Model failed with seasonal order 4: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:28.531762+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:29.758913+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:29.776058+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:29.805220+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:29.827535+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:33.130052+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:33.130164+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:33.152674+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:33.906574+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:34.245959+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:34.315581+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:34.602541+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:34.602648+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:34.769015+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:34.797615+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:36.415953+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:36.438535+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:37.585431+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:38.036577+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:38.979691+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:39.053297+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:39.124160+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:39.144712+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:39.204784+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:39.204880+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:39.225944+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:39.485735+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:39.943049+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:39.988723+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:39.992006+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:40.014441+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:40.871317+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:40.873134+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:42.393313+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:42.498182+0700 | src.utilities.utils | INFO | Model failed with seasonal order 6: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:42.515797+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:42.537198+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:42.710734+0700 | src.utilities.utils | INFO | Model failed with seasonal order 6: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:42.736286+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:42.739561+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:42.784796+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:42.949579+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:42.967073+0700 | src.utilities.utils | INFO | Model failed with seasonal order 6: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:42.977316+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:43.042965+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:43.043063+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:43.064361+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:43.182731+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:44.229665+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:44.260035+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:44.280521+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:44.305854+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:44.367339+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:44.397900+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:44.418824+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:44.444248+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:44.533981+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:44.613092+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:46.809246+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:46.865498+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:46.885757+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:49.063143+0700 | __main__ | INFO | Running 5/12 → COLUMN=AVG Total EA, STORAGE_TYPE=All, OUTLIER=True
+2025-03-23T23:48:49.394655+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:49.856777+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:49.881286+0700 | src.utilities.utils | INFO | Model failed with seasonal order 4: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:50.719849+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:50.758295+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:50.783376+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:50.811380+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:50.832001+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:50.850501+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:50.850593+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:50.870628+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:50.890337+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:50.909934+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:50.930111+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:50.949741+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:50.969257+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:50.989349+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:51.009291+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:51.029478+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:51.114100+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:51.625313+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:51.670510+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:51.835846+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:51.855766+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:51.925704+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:52.173295+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:52.343835+0700 | __main__ | INFO | Running 6/12 → COLUMN=AVG Total EA, STORAGE_TYPE=All, OUTLIER=False
+2025-03-23T23:48:53.361374+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:54.355782+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:54.828229+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:55.319784+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:55.339952+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:55.388037+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:55.412785+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:56.228025+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:56.652925+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:57.225261+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:57.275885+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:57.521795+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:59.531404+0700 | __main__ | INFO | Running 7/12 → COLUMN=AVG Total EA, STORAGE_TYPE=Specific, OUTLIER=True
+2025-03-23T23:48:59.543126+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:59.662443+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:59.690699+0700 | src.utilities.utils | INFO | Model failed with seasonal order 4: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:48:59.697809+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:59.721097+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:59.880181+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:59.902605+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:48:59.989447+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:00.086090+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:00.514136+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:00.589476+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:00.597271+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:00.660343+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:00.665815+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:00.745781+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:00.745897+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:00.770647+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:00.854722+0700 | src.utilities.utils | INFO | Model failed with seasonal order 4: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:00.862949+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:00.885584+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:00.890282+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:01.147932+0700 | src.utilities.utils | INFO | Model failed with seasonal order 4: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:01.154901+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:01.179366+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:01.260242+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:01.290781+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:01.290897+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:01.313502+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:01.378769+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:01.384592+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:01.565351+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:01.568580+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:01.623372+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:01.758343+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:01.791009+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:01.872800+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:01.910531+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:01.936033+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:01.980321+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:02.193740+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:02.223591+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:02.254940+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:02.281012+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:02.362897+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:02.408961+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:02.437045+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:02.478762+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:02.515902+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:02.552543+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:02.593970+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:02.629867+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:02.666169+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:02.720378+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:02.756724+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:02.844896+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:02.877640+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:02.914213+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:02.948860+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:03.031995+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:03.054365+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:03.130868+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:03.130999+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:03.214334+0700 | src.utilities.utils | INFO | Model failed with seasonal order 8: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:03.357479+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:03.383334+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:03.387021+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:03.554690+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:03.632702+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:03.636051+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:04.405950+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:04.501373+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:04.532690+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:04.755707+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:04.788948+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:04.893849+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:04.933398+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:05.245845+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:05.325767+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:05.400911+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:05.404220+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:05.465756+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:05.581283+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:05.633464+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:05.816882+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:05.837844+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:05.861173+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:06.221680+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:06.573075+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:06.605162+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:06.605314+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:06.678170+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:06.682062+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:06.706223+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:06.776839+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:07.082412+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:07.287077+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:08.037448+0700 | __main__ | INFO | Running 8/12 → COLUMN=AVG Total EA, STORAGE_TYPE=Specific, OUTLIER=False
+2025-03-23T23:49:08.281397+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:08.802160+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:08.917151+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:08.940475+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:08.940603+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:09.820283+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:09.854305+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:10.546585+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:10.989479+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:10.992685+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:11.499367+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:12.023912+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:12.046471+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:12.178099+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:12.684469+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:12.799856+0700 | src.utilities.utils | INFO | Model failed with seasonal order 6: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:12.818431+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:13.541470+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:13.544718+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:14.490986+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:14.560975+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:15.416282+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:15.504622+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:15.686023+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:15.844835+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:16.177713+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:16.776587+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:17.438994+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:18.925342+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:18.945953+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:19.376407+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:19.379878+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:19.402270+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:19.629581+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:19.648677+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:19.648766+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:20.214922+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:20.218187+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:20.231098+0700 | src.utilities.utils | INFO | Model failed with seasonal order 4: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:20.237742+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:20.448188+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:21.760068+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:21.782515+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:21.823811+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:21.854517+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:23.312073+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:23.363574+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:23.406594+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:23.644608+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:26.102361+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:26.102487+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:26.125006+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:26.765417+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:27.096758+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:27.161032+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:27.407170+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:27.407275+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:27.577033+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:27.605797+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:29.542105+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:29.576149+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:32.807288+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:33.444321+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:34.731226+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:34.843311+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:34.949870+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:34.986346+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:35.083923+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:35.084135+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:35.117062+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:35.425547+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:36.054334+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:36.150328+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:36.154885+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:36.186952+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:37.415262+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:37.417765+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:39.425776+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:39.565800+0700 | src.utilities.utils | INFO | Model failed with seasonal order 6: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:39.579378+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:39.604596+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:39.825488+0700 | src.utilities.utils | INFO | Model failed with seasonal order 6: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:39.847550+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:39.868433+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:39.872402+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:40.055239+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:40.213925+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:40.235668+0700 | src.utilities.utils | INFO | Model failed with seasonal order 6: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:40.247803+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:40.365151+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:40.365258+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:40.391951+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:40.651173+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:41.908183+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:41.955209+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:41.984526+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:42.016369+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:42.094054+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:42.132260+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:42.157165+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:42.197649+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:42.335726+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:42.514343+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:44.840175+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:49.717571+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:49.902219+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:49.932170+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:50.902261+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:52.040671+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:53.040845+0700 | __main__ | INFO | Running 9/12 → COLUMN=AVG Total CTN, STORAGE_TYPE=All, OUTLIER=True
+2025-03-23T23:49:53.383510+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:53.846568+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:53.880219+0700 | src.utilities.utils | INFO | Model failed with seasonal order 4: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:54.946238+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:54.973611+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:54.973721+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:55.015392+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:55.039468+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:55.063326+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:55.087497+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:55.112153+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:55.136593+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:55.223108+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:55.270186+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:55.876754+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:55.937735+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:56.248155+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:56.280279+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:56.375424+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:56.694188+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:49:56.939188+0700 | __main__ | INFO | Running 10/12 → COLUMN=AVG Total CTN, STORAGE_TYPE=All, OUTLIER=False
+2025-03-23T23:49:58.193181+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:49:59.513872+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:00.075223+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:00.460833+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:00.785378+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:00.789577+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:00.914257+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:01.013057+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:02.002199+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:02.473340+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:03.139534+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:03.203378+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:03.481456+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:06.162734+0700 | __main__ | INFO | Running 11/12 → COLUMN=AVG Total CTN, STORAGE_TYPE=Specific, OUTLIER=True
+2025-03-23T23:50:06.175496+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:06.306600+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:06.336376+0700 | src.utilities.utils | INFO | Model failed with seasonal order 4: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:06.344095+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:06.368028+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:06.753717+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:06.781067+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:06.887144+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:06.994854+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:07.520725+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:07.625713+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:07.634530+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:07.706202+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:07.712709+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:07.811740+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:07.811866+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:07.838046+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:07.927920+0700 | src.utilities.utils | INFO | Model failed with seasonal order 4: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:07.936321+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:07.960917+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:07.966280+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:08.228405+0700 | src.utilities.utils | INFO | Model failed with seasonal order 4: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:08.237677+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:08.266187+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:08.364900+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:08.407040+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:08.407155+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:08.438049+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:08.519583+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:08.525971+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:08.722200+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:08.726500+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:08.801064+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:08.986583+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:09.028188+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:09.126663+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:09.236362+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:09.264947+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:09.314601+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:09.606714+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:09.650645+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:09.704905+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:09.745147+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:09.847044+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:09.900844+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:09.934530+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:09.990381+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:10.038322+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:10.085404+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:10.333159+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:10.397724+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:10.489843+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:10.514133+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:10.607803+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:10.607920+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:10.699270+0700 | src.utilities.utils | INFO | Model failed with seasonal order 8: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:10.785000+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:10.812889+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:10.816449+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:10.845352+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:11.041529+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:11.136879+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:11.140829+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:12.243949+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:12.411892+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:12.446274+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:12.611385+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:12.650798+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:12.763056+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:12.802410+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:13.199688+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:13.344932+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:13.484928+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:13.491234+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:13.596799+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:13.749822+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:13.829535+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:14.086423+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:14.114810+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:14.150383+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:14.549642+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:15.046488+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:15.088204+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:15.088336+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:15.179025+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:15.183615+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:15.215358+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:15.304124+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:15.637802+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:15.857744+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:16.537072+0700 | __main__ | INFO | Running 12/12 → COLUMN=AVG Total CTN, STORAGE_TYPE=Specific, OUTLIER=False
+2025-03-23T23:50:16.723449+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:17.180240+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:17.310449+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:17.334569+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:17.334686+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:17.908240+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:17.940972+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:18.551434+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:19.008757+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:19.014098+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:19.658137+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:20.445320+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:20.471550+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:20.534997+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:21.298940+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:21.462620+0700 | src.utilities.utils | INFO | Model failed with seasonal order 6: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:21.488562+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:22.172295+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:22.176711+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:23.122173+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:23.218392+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:23.970379+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:24.053590+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:24.225465+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:24.507092+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:25.200383+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:25.996921+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:27.408404+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:27.441063+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:27.466060+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:28.080634+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:28.084338+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:28.111691+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:28.379979+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:28.407606+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:28.407734+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:28.864182+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:28.868048+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:28.884083+0700 | src.utilities.utils | INFO | Model failed with seasonal order 4: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:28.891755+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:30.397597+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:30.418617+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:30.458940+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:30.485679+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:31.717769+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:31.891816+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:34.519695+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:34.519820+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:34.545226+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:35.358655+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:35.757025+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:35.837338+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:36.142261+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:36.142385+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:36.343719+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:36.381286+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:38.220157+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:38.248562+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:39.460820+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:40.019850+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:41.132203+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:41.221177+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:41.311462+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:41.337735+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:41.412285+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:41.412413+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:41.437635+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:41.765286+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:42.380956+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:42.494107+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:42.498649+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:42.528264+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:43.367158+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:43.369587+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:45.349935+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:45.514786+0700 | src.utilities.utils | INFO | Model failed with seasonal order 6: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:45.542179+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:45.576533+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:45.836830+0700 | src.utilities.utils | INFO | Model failed with seasonal order 6: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:45.864395+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:45.888279+0700 | src.utilities.utils | INFO | Model failed with seasonal order 3: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:45.893110+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:46.149361+0700 | src.utilities.utils | INFO | Model failed with seasonal order 12: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:46.311023+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:46.333899+0700 | src.utilities.utils | INFO | Model failed with seasonal order 6: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:46.347582+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:46.504778+0700 | src.utilities.utils | INFO | Model failed with seasonal order 2: too many indices for array: array is 0-dimensional, but 1 were indexed
+2025-03-23T23:50:46.504934+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:46.536461+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:46.746915+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:48.192735+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:48.241167+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:48.269609+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:48.305476+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:48.389223+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:48.424552+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:48.447327+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:48.474324+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:48.588240+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:48.687432+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:50.117140+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:51.585238+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:51.695843+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:51.726369+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:52.590749+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:53.630496+0700 | src.utilities.utils | INFO | No valid SARIMAX model could be trained. Consider removing seasonality.
+2025-03-23T23:50:54.932377+0700 | __main__ | INFO | Saving feather as ferrero_predicted_test.feather...
