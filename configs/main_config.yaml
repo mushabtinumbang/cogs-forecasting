@@ -1,5 +1,7 @@
 run_forecasting_params:
   morgan:
     predicted_feathername: "morgan_predicted_{{suffix}}.feather"
+    predicted_csvname: "morgan_predicted_{{suffix}}.csv"
   ferrero:
     predicted_feathername: "ferrero_predicted_{{suffix}}.feather"
+    predicted_csvname: "ferrero_predicted_{{suffix}}.csv"
