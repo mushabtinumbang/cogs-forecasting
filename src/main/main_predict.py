@@ -59,6 +59,7 @@ def main_predict(
 
     # set predicted feathername by mapping the input
     pred_feathername = f'{params["run_forecasting_params"][client]["predicted_feathername"]}'
+    pred_csvname = f'{params["run_forecasting_params"][client]["predicted_csvname"]}'
 
     # training data path mapping based on client value
     training_data = {
@@ -158,6 +159,9 @@ def main_predict(
     logger.info(f"Saving feather as {pred_feathername}...")
     utils.save(df_results, os.path.join(predicted_data_path, pred_feathername))
 
+    # save
+    logger.info(f"Saving CSV as {pred_feathername}...")
+    df_results.to_csv(os.path.join(predicted_data_path, pred_csvname))
 
 if __name__ == "__main__":
     main_predict()
