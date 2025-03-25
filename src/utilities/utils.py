@@ -109,6 +109,8 @@ def preprocess_df(df, outlier):
     # Group by 'Inv Date (MMM-YYYY)' and calculate the average 'Total COGS Value'
     df_grouped = df.groupby(['Inv Date (MMM-YYYY)', 'Material Code', 'Storage Location Code'], as_index=False).agg(
         {
+            'Material Group Code' : 'first',
+            'Material Group Desc' : 'first',
             'Total COGS EA': 'mean',
             'Total COGS CTN': 'mean',
             'Total COGS Value': 'mean',
@@ -221,6 +223,8 @@ def all_storage_grouper(df):
     # Add this to switch Storage Location to = all
     df = df.groupby(['Inv Date (MMM-YYYY)', 'Material Code'], as_index=False).agg(
             {
+                'Material Group Code' : 'first',
+                'Material Group Desc' : 'first',
                 'AVG Total EA': 'mean',
                 'AVG Total CTN': 'mean',
                 'AVG Total RM': 'mean',

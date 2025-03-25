@@ -110,7 +110,7 @@ def main_predict(
         for i, (material, storage) in enumerate(material_storage_pairs):
             if sample:
                 if i >= 10: 
-                    break  # Stop early if LOOP_VALUE is reached
+                    break  # Stop early if sample = True
 
             # Efficient DataFrame filtering using .query()
             if storage:
@@ -131,11 +131,17 @@ def main_predict(
 
                 # Determine COGS Type
                 cogs_type = "RM" if col == "AVG Total RM" else "EA" if col == "AVG Total EA" else "CTN"
+                # print(df_sample)
+                material_group_code = df_sample["Material Group Code"].values[0]
+                material_group_desc = df_sample["Material Group Desc"].values[0]
+                
 
                 # Store results
                 results.extend([
                     {
                         "Date": future_date,
+                        "material_group_code" : material_group_code,
+                        "material_group_desc" : material_group_desc,
                         "Material Code": material,
                         "Storage Location Code": storage if storage else "All",
                         "COGS Type": cogs_type,
@@ -151,6 +157,7 @@ def main_predict(
 
     # Convert results list into a DataFrame
     df_results = pd.DataFrame(results)
+    print(df_results)
 
     # Postprocess data type
     df_results["Storage Location Code"] = df_results["Storage Location Code"].astype(str)
