@@ -134,7 +134,7 @@ def main_predict(
                 # print(df_sample)
                 material_group_code = df_sample["Material Group Code"].values[0]
                 material_group_desc = df_sample["Material Group Desc"].values[0]
-                
+                material_desc = df_sample["Material Desc"].values[0]
 
                 # Store results
                 results.extend([
@@ -142,6 +142,7 @@ def main_predict(
                         "Date": future_date,
                         "material_group_code" : material_group_code,
                         "material_group_desc" : material_group_desc,
+                        "material_desc" : material_desc,
                         "Material Code": material,
                         "Storage Location Code": storage if storage else "All",
                         "COGS Type": cogs_type,

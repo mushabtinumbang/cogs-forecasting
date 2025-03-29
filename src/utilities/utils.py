@@ -111,6 +111,7 @@ def preprocess_df(df, outlier):
         {
             'Material Group Code' : 'first',
             'Material Group Desc' : 'first',
+            'Material Desc' : 'first',
             'Total COGS EA': 'mean',
             'Total COGS CTN': 'mean',
             'Total COGS Value': 'mean',
@@ -225,6 +226,7 @@ def all_storage_grouper(df):
             {
                 'Material Group Code' : 'first',
                 'Material Group Desc' : 'first',
+                'Material Desc' : 'first',
                 'AVG Total EA': 'mean',
                 'AVG Total CTN': 'mean',
                 'AVG Total RM': 'mean',
